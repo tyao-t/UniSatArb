@@ -1,0 +1,153 @@
+nohup: runAll.sh: No such file or directory
+Error: Received signal 15. Cleaning up before process termination.
+Error: Received signal 15. Cleaning up before process termination.
+Error: Received signal 15. Cleaning up before process termination.
+Error: inner loop
+Error: inner loop 
+Error: inner loop 
+Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Error: 
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+No profit, inner
+Traceback (most recent call last):
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/process_ArbOpp.py", line 36, in <module>
+    time.sleep(poll_interval)
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/process_ArbOpp.py", line 13, in signal_handler
+    perr(f"Received signal {signum}. Cleaning up before process termination.")
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/masterFunc.py", line 25, in perr
+    print(f"Error: {msg}", file=sys.stderr)
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/process_ArbOpp.py", line 13, in signal_handler
+    perr(f"Received signal {signum}. Cleaning up before process termination.")
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/masterFunc.py", line 25, in perr
+    print(f"Error: {msg}", file=sys.stderr)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/process_ArbOpp.py", line 39, in <module>
+    perr("inner loop")
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/masterFunc.py", line 25, in perr
+    print(f"Error: {msg}", file=sys.stderr)
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/process_ArbOpp.py", line 13, in signal_handler
+    perr(f"Received signal {signum}. Cleaning up before process termination.")
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/masterFunc.py", line 25, in perr
+    print(f"Error: {msg}", file=sys.stderr)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/process_ArbOpp.py", line 47, in <module>
+    arbProcess.slackChannel.killFunction(arbProcess.processName, error)
+  File "/Users/tianhaoyao/Desktop/UnisatGateioArb/masterFunc.py", line 44, in killFunction
+    msg = 'Process for: ' + processName + " is terminated" + "\n" + "Error: " + error
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: can only concatenate str (not "RuntimeError") to str
+Error: Process for: ArbOppScanning is terminated
+./runAll.sh: line 6: Add: command not found
+Error: Received signal 15. Cleaning up before process termination.
+Error: Received signal 15. Cleaning up before process termination.
+Error: Received signal 15. Cleaning up before process termination.
+Error: Received signal 15. Cleaning up before process termination.
+Error: Received signal 15. Cleaning up before process termination.
+Error: inner loop 
+Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Error: Process for: Unisat is terminated
+Error: Received signal 15. Cleaning up before process termination.
+Error: Process for: gateIO is terminated
